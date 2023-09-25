@@ -34,8 +34,7 @@
     <header>
       <h2>Site Header</h2>
        <p>City of Ottawa Random Data</p>
-    <img src="./images/house.png"
-    alt="Illustrated graphic of a condo tower" />
+    <img src="./images/house.png" alt="Illustrated graphic of a condo tower"/>
   <nav>
       
        <h3>Site Menu</h3> <ul>
@@ -45,6 +44,7 @@
      </ul>
   </nav>
 </header>
+
 <main>
  <h1>Random City of Ottawa Things</h1>
  <section>
@@ -54,9 +54,9 @@
        <li><a href="#wards">Wards</a></li>
        <li><a href="#taxes">Property Taxes</a></li>
        <li><a href="#form">Ward Councillor Evaluation Form</a></li> </ul> 
-</section>
+ </section>
 
-<section>
+ <section>
 <h2 id="summary">Housing Construction Summary for Q1 2023</h2>
  <p>In Q1 2023, there were:</p>
   <ul> <li>2,716 dwellings granted land use permissions through Official Plan or Zoning By-law Amendments
@@ -65,12 +65,12 @@
      <li>3,187 net dwellings issued building permits</li>
      <li>1,626 housing starts</li> 
      <li>14,945 dwellings under construction</li>
-  <ul><li>579 of which are not-for-profit dwellings</li></ul>
+  <ul> <li>579 of which are not-for-profit dwellings</li> </ul>
     <li>2,135 dwellings where construction was completed</li>
 </ul>
-</section>
+ </section>
 
-<section>
+ <section>
 <h2 id="wards">Wards</h2>
  <p>The City of Ottawa is divided into 24 wards. Each ward has a councillor who represents the residents of that ward.</p>
   <img src="images/ottawa-map.png"
@@ -217,10 +217,10 @@
    <input type="text" id="name" name="name" autocomplete="name" required/>
 
    <label for="email">Email:</label>
-   <input type="email" id="email" name="email" autocomplete="email" />
+   <input type="email" id="email" name="email" autocomplete="email"/>
    
    <label for="phone">Phone:</label>
-   <input type="phone" id="phone" name="phone" autocomplete="phone" />
+   <input type="tel" id="phone" name="phone" autocomplete="tel"/>
 
    <label for="ward">Ward:</label> <select id="ward" name="ward" required>
 <option value="">--Please choose an option--</option>
@@ -253,21 +253,21 @@
 <fieldset>
   <legend>Feedback:</legend>
   <label for="topic">Subject/Topic:</label>
-  <input type="text" id="topic" name="topic" required />
+  <input type="text" id="topic" name="topic" required/>
 
   <label>Feedback Type:</label>
-  <input type="radio"id="suggestion"name="feedback_type"value="suggestion"required />
+  <input type="radio" id="suggestion" name="feedback_type" value="suggestion" required/>
 
   <label for="suggestion">Suggestion</label>
-  <input type="radio"id="concern"name="feedback_type"value="concern" />
+  <input type="radio" id="concern" name="feedback_type" value="concern"/>
   
   <label for="concern">Concern</label>
-  <input type="radio"id="appreciation"name="feedback_type"value="appreciation"/>
+  <input type="radio" id="appreciation" name="feedback_type" value="appreciation"/>
   
   <label for="appreciation">Appreciation</label>
 
-  <label forfor="feedback">Feedback Details:</label><br />
-  <textarea id="feedback" name="feedback_type"rows="4"cols="50"required></textarea>
+  <label for="feedback">Feedback Details:</label><br/>
+  <textarea id="feedback" name="feedback_type" rows="4" cols="50" required></textarea>
  
   <label for="priority">Priority Level:</label>
   <select id="priority" name="priority">
@@ -276,15 +276,15 @@
     <option value="high">High</option></select>
   
   <label for="location">Location (if applicable):</label>
-  <input type="text"id="location"name="location"/></fieldset>
+  <input type="text" id="location" name="location"/></fieldset>
 
 
 <fieldset>
   <legend>Follow-up Information:</legend>
-  <input type="checkbox" id="followup" name="followup" value="yes" />
+  <input type="checkbox" id="followup" name="followup" value="yes"/>
   <label for="followup" >I would like to receive a follow-up response.</label>
   
-  <label for="contact method">Preferred Contact Method:</label>
+  <label for="contact_method">Preferred Contact Method:</label>
   <select id="contact_method" name="contact_method">
   <option value="email">Email</option>
   <option value="phone">Phone</option></select>
@@ -293,14 +293,16 @@
 
 <fieldset>
   <legend>Submit Feedback</legend>
-  <input type="checkbox" id="consent" name="consent" required/>
-  <label for="consent">  I consent to the use of my feedback.</label>
+  <input type="checkbox" id="consent" name="consent"required/>
+  <label for="consent">I consent to the use of my feedback.</label>
   <input type="submit" value="Submit Feedback"/>
 
 </fieldset>
 </form>
-</main>
+
 </section>
+</main>
+
 
 <footer>
   <h2>Site Footer</h2>
